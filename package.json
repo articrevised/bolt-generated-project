@@ -1,0 +1,19 @@
+{
+  "name": "custom-homepage",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && npx surge dist custom-homepage.surge.sh"
+  },
+  "dependencies": {
+    "sortablejs": "^1.15.1"
+  },
+  "devDependencies": {
+    "surge": "^0.23.1",
+    "vite": "^5.0.0"
+  }
+}
